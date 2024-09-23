@@ -1,4 +1,5 @@
 var sidenav = document.querySelector(".side-nav")
+var cont=""
 function shownav(){
     sidenav.style.left = "0"
 }
