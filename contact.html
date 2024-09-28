@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-FASHION STORE</title>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- mycss -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1>E-FASHION STORE</h1>
+        <div class="nav-links">
+            <p><a href="home.html" class="nav-link">Home</a></p>
+            <p><a href="collection.html" class="nav-link">Collection</a></p>
+            <p><a href="contact.html" class="nav-link">Contact</a></p>
+        </div>
+        <!-- toggle bar -->
+        <div class="toggle" onclick="shownav()">
+            <p><i class="fa-solid fa-bars"></i></p>
+        </div>
+
+
+    </nav>
+    <!-- side-navbar -->
+    <div class="side-nav">
+        <p style="text-align: right;" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+
+        <div class="side-nav-links">
+            <p><a href="home.html" class="side-nav-link">Home</a></p>
+            <p><a href="collection.html" class="side-nav-link">Collection</a></p>
+            <p><a href="contact.html" class="side-nav-link">Contact</a></p>
+        </div>
+    </div>
+    <!-- contact details -->
+    <div class="contact_container">
+        <div class="contact_us">
+            <h2>Contact Us</h2>
+            <h4>Name:</h4>
+            <input type="text" class="contact-name">
+            <h4>E-Mail:</h4>
+            <input type="text" class="contact-email">
+            <h4>Message:</h4>
+            <input type="text" class="contact-message"><br>
+            <div class="btn">
+                <button>Submit <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+        </div>
+    </div>
+    <!-- singup-->
+    <div class="signup">
+        <h2>Join Our News Letter</h2>
+        <p>Singup for email newspaper to get exclusive discounts,updates and more</p>
+        <input class="input" type="text"><br>
+        <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <!-- contact session  -->
+    <div class="contact">
+        <h2>E-FASHION STORE</h2>
+        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, eum.</h5>
+        <p><i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+        </p>
+        <p>@efashionstore.com</p>
+    </div>
+
+
+
+
+    <script src="home.js"></script>
+
+</body>
+
+</html>
